@@ -79,6 +79,6 @@ To make an NPC drop loot give it the `lootable` behavior and configure it like s
 
 When an NPC uses the `lootable` behavior loot will be generated on the `killed`
 event. This is not a core event so you can emit this any time you want. For
-example, the `bundle-example-combat` bundle emits `killed` when an NPC's
+example, the `hylands-combat` bundle emits `killed` when an NPC's
 `health` attribute is `damaged` and it is `<= 0`. But this may be different for
 your game.
